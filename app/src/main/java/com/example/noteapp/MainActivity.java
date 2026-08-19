@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Note> notes = new ArrayList<>();
     private NoteAdapter adapter;
     @Override protected void onCreate(Bundle savedInstanceState) {
+        Thread.setDefaultUncaughtExceptionHandler(new CrashHandler(this));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
