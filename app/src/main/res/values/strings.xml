@@ -6,4 +6,9 @@
     <string name="delete">Delete</string>
     <string name="title_hint">Title</string>
     <string name="content_hint">Write your note here</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
 </resources>
